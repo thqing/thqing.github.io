@@ -2,9 +2,162 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>我的gitHub</title>
+		<title>bootstrap</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			body{padding-top:70px;}
+			.navbar-inverse input[type="text"]{
+				background: #333;
+				/*border:none;*/
+				color:#999;
+			}
+			.navbar-inverse button[type="submit"]{
+				background: none;
+				border: none;
+				color:#ffffff;
+			}
+			.navbar-inverse form{
+				position: relative;
+			}
+			.navbar-inverse .glyphicon-search{
+				position: absolute;
+				top:35%;
+				right:15px;
+			}
+		</style>
 	</head>
 	<body>
-		<p>这是我的gitHub服务器</p>
+		
+			
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">bgsteel.com</a>
+				<!--<a class="navbar-brand" href="#"><img src="http://www.cn3s.net/images/logo.png" /></a>-->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">视频</a></li>
+					<li><a href="#">课程</a></li>
+					<li><a href="#">下载</a></li>
+				</ul>
+				
+				<!--搜索框-->
+				<form action="" class="navbar-form navbar-left">
+					<input type="text" placeholder="输入搜索内容" class="form-control"/>
+					<button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+				</form>
+				
+				<a href="" class="btn navbar-btn btn-primary btn-sm navbar-right">报名课程</a>
+				<div class="profile navbar-right">
+
+					<ul class="nav navbar-nav">
+						<li><a href="#">注册</a></li>
+						<li><a href="#">登录</a></li>
+					</ul>
+					<p class="navbar-text">您好，<a href="#" class="navbar-link">田海清</a></p>
+				
+				</div>
+			</div>
+		</nav>
+			
+		<div class="container">
+			<table border="0" cellspacing="0" cellpadding="0" class="table table-striped">
+				<tr>
+					<th>Header1</th>
+					<th>Header2</th>
+					<th>Header3</th>
+					<th>Header4</th>
+				</tr>
+				<tr>
+					<td>Data1</td>
+					<td>Data2</td>
+					<td>Data3</td>
+					<td>Data4</td>
+				</tr>
+				<tr>
+					<td>Data5</td>
+					<td>Data6</td>
+					<td>Data7</td>
+					<td>Data8</td>
+				</tr>
+				<tr>
+					<td>Data9</td>
+					<td>Data10</td>
+					<td>Data11</td>
+					<td>Data12</td>
+				</tr>
+				<tr>
+					<td>Data13</td>
+					<td>Data14</td>
+					<td>Data15</td>
+					<td>Data16</td>
+				</tr>
+				
+			</table>
+			
+			<div class="row">
+				<div class="col-md-2 hidden-xs">
+					<h2>网站侧边栏</h2>
+					<p><a href="#">综合部</a></p>
+					<p><a href="#">技术部</a></p>
+					<p><a href="#">设备部</a></p>
+					<p><a href="#">加热部</a></p>
+					<p><a href="#">电气部</a></p>
+					<p><a href="#">轧辊部</a></p>
+				</div>
+				<div class="visible-xs">
+					挡屏幕缩小到手机尺寸时，这个DIV才显示！！！
+				</div>
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-6">
+							<h2>网站内容1</h2>
+							<p class="alert alert-info">
+								Firefox 无法建立到 127.0.0.1:8848 服务器的连接。
+							此站点暂时无法使用或者太过忙碌。请过几分钟后再试。
+							如果您无法载入任何网页，请检查您计算机的网络连接状态。
+							如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 Firefox 已被授权访问网络。
+							</p>
+						</div>
+						
+						<div class="col-md-6">
+							<h2>网站内容2</h2>
+							<p>
+								Firefox 无法建立到 127.0.0.1:8848 服务器的连接。
+							此站点暂时无法使用或者太过忙碌。请过几分钟后再试。
+							如果您无法载入任何网页，请检查您计算机的网络连接状态。
+							如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 Firefox 已被授权访问网络。
+							</p>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<h2>网站内容3</h2>
+							<p>
+								Firefox 无法建立到 127.0.0.1:8848 服务器的连接。
+							此站点暂时无法使用或者太过忙碌。请过几分钟后再试。
+							如果您无法载入任何网页，请检查您计算机的网络连接状态。
+							如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 Firefox 已被授权访问网络。
+							</p>
+						</div>
+						
+						<div class="col-md-6">
+							<h2>网站内容4</h2>
+							<p>
+								Firefox 无法建立到 127.0.0.1:8848 服务器的连接。
+							此站点暂时无法使用或者太过忙碌。请过几分钟后再试。
+							如果您无法载入任何网页，请检查您计算机的网络连接状态。
+							如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 Firefox 已被授权访问网络。
+							</p>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
 	</body>
 </html>
